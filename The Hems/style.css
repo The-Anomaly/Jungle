@@ -1,0 +1,46 @@
+body {
+    font-size: 1rem;
+}
+.navbar {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.3px;
+}
+.navlinksec {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 20%;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    font-size: 90%;
+    padding-top: 5px;
+}
+.navlogo {
+    font-weight: 700;
+    font-size: 125%;
+}
+.navlink {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navlink:hover::after {
+    content: "";
+    display: block;
+    border: 2px solid #F0B1CF;
+    margin-top: 0.5rem;
+}
+.navctrl {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 15px;
+}
+.navicon:hover {
+    width: 17px;
+    height: 17px;
+}
