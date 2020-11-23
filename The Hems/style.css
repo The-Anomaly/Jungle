@@ -54,6 +54,12 @@ body {
     height: 17px;
     cursor: pointer;
 }
+.ellipse {
+    height: 8px;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+}
 
 /*First Section Styling*/
 .landingsection {
@@ -101,4 +107,54 @@ body {
 }
 .woman {
     width: 45vw;
+}
+
+/*Second Section - Ladies Collection*/
+.ladiescollection {
+    padding: 3rem 0 3rem 0;
+}
+.ladiestxt {
+    width: 130px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.2rem;
+    background: linear-gradient(90deg, #F0B1CF80 50%, transparent 50%) no-repeat;
+    margin-left: 3.5rem;
+}
+.smtxt {
+    font-family: 'Hind';
+    font-weight: 500;
+    font-size: 16px;
+}
+.lgtxt {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 42px;
+}
+.ladiesimg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.ladiesimg1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ladiesimg3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgwidth {
+    width: 32vw;
+    opacity: 85%;
+}
+.lady3 {
+    height: 100%;
+}
+.lady3::after {
+    content: "";
 }
