@@ -171,26 +171,119 @@ body {
     margin-left: 3rem;
     margin-top: 2rem;
 }
+.imgtxt {
+    position: absolute;
+    margin-top: -4rem;
+    color: #ffffff;
+    margin-left: 13%;
+    font-family: 'PT Serif';
+    font-size: 32px;
+}
 
 .brand {
     display: flex;
     margin-top: 5rem;
+    background: #F0B1CF25;
 }
 .brandtxt {
     flex: 50%;
     font-family: 'Hind';
     font-weight: 500;
-    font-size: 16px;
-    background: #F0B1CF25;
-    padding: 5rem 4rem;
+    font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.4px;
     width: 50%;
+    margin: auto;
+    margin-left: 7%;
+    text-align: justify;
 }
 .brandtxt1 {
+    width: 80%
+}
+.brandtxt2 {
     margin-top: 3rem;
+    width: 80%
 }
 .brandimg {
     flex: 50%;
     width: 50%;
+}
+.readmoretxt {
+    color: #F0B1CF;
+    margin-left: 4.5rem;
+    cursor: pointer;
+}
+.readmoreicon {
+    width: 8px;
+    cursor: pointer;
+}
+.percentbackdrop {
+    padding: 8rem 0;
+}
+.percentoff {
+    width: 90%;
+    background: #F7BBD880;
+    border-radius: 50px;
+    margin: auto;
+    padding: 9rem 13rem;
+}
+.percentofftxt1 {
+    font-size: 32px;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-style: italic;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.percentofftxt2 {
+    text-align: center;
+    font-family: 'Hind';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    padding: 2rem 0;
+}
+.percentbtn {
+    text-align: center;
+    color: #ffffff;
+    background: #000000;
+    padding: 0.8rem;
+    font-family: 'Hind';
+    font-size: 18px;
+    width: 180px;
+    margin: auto;
+    cursor: pointer;
+}
+.shoparrow {
+    width: 7px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.yourstyle {
+    background-image: url("./assets/brand.svg");
+    color: #ffffff;
+    opacity: 80;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14rem 12rem;
+    text-align: center;
+}
+.yourstyletxt {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 62px;
+    margin-bottom: 6rem;
+}
+.yourstylebtn {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    font-size: 32px;
+    padding: 1rem;
+    width: 280px;
+    margin: auto;
+    cursor: pointer;
 }
