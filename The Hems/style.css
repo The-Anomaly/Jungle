@@ -84,11 +84,11 @@ body {
 .firstsectxt {
     font-family: 'PT Serif';
     font-weight: 700;
-    font-size: 68px;
     width: 300px;
     text-align: center;
     margin-bottom: 3rem;
     background: linear-gradient(90deg, #F0B1CF80 50%, transparent 50%) no-repeat;
+    font-size: 68px;
     padding: 1rem;
 }
 .clothesthat {
@@ -115,7 +115,7 @@ body {
     width: 45vw;
 }
 
-/*Second Section - Ladies Collection*/
+/*Second & Third Section - Ladies & Gents Collection*/
 .ladiescollection {
     padding: 3rem 0 5rem 0;
 }
@@ -138,6 +138,7 @@ body {
     font-family: 'PT Serif';
     font-weight: 400;
     font-size: 42px;
+    white-space: nowrap;
 }
 .ladiesimg {
     display: flex;
@@ -180,6 +181,7 @@ body {
     font-size: 32px;
 }
 
+/*Fourth Section - Brand*/
 .brand {
     display: flex;
     margin-top: 5rem;
@@ -196,6 +198,9 @@ body {
     margin: auto;
     margin-left: 7%;
     text-align: justify;
+}
+.titletxt {
+    padding-left: 2.5rem;
 }
 .brandtxt1 {
     width: 80%
@@ -217,6 +222,8 @@ body {
     width: 8px;
     cursor: pointer;
 }
+
+/*Fifth Section - 15% Off*/
 .percentbackdrop {
     padding: 8rem 0;
 }
@@ -262,6 +269,8 @@ body {
     margin-left: 1rem;
     cursor: pointer;
 }
+
+/*Sixth Section - Your Style Is Our Priority*/
 .yourstyle {
     background-image: url("./assets/brand.svg");
     color: #ffffff;
@@ -286,4 +295,68 @@ body {
     width: 280px;
     margin: auto;
     cursor: pointer;
+}
+
+
+/*Responsiveness*/
+@media(max-width: 1000px) {
+    .firstsectxt {
+        font-size: 5.3vw;
+        padding: 1rem 2rem;
+    }
+    .navlinksec {
+        margin-right: 0;
+    }
+    .brandtxt {
+        font-size: 14px;
+    }
+    .brandtxt2 {
+        margin-top: 1rem;
+    }
+    .shopnowtxt {
+        font-size: 18px;
+    }
+    .shopnowimg {
+        width: 38px;
+    }
+    .ladiestxt {
+        width: 135px;
+    }
+    .smtxt {
+        font-size: 14px;
+    }
+    .lgtxt {
+        font-size: 38px;
+    }
+    .titletxt {
+        padding-left: 2rem;
+    }
+    .readmoretxt {
+        font-size: 18px;
+    }
+    .readmoreicon {
+        width: 7px;
+    }
+    .percentoff {
+        padding: 7rem 10rem;
+    }
+    .percentofftxt1 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+    .percentbtn {
+        font-size: 17px;
+        width: 170px;
+    }
+    .yourstyle {
+        padding: 12rem 10rem;
+    }
+    .yourstyletxt {
+        font-size: 56px;
+    }
+    .yourstylebtn {
+        font-size: 28px;
+        width: 250px;
+        padding: 0.8rem;
+    }
 }
