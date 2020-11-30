@@ -112,7 +112,7 @@ body {
     cursor: pointer;
 }
 .woman {
-    width: 45vw;
+    width: 100%;
 }
 
 /*Second & Third Section - Ladies & Gents Collection*/
@@ -332,7 +332,7 @@ body {
 .yourstyle {
     background-image: url("./assets/brand.svg");
     color: #ffffff;
-    opacity: 80;
+    opacity: 80%;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 14rem 12rem;
@@ -354,13 +354,18 @@ body {
     margin: auto;
     cursor: pointer;
 }
-
+.ladiescarousel {
+    display: none;
+}
 
 /*Responsiveness*/
 @media(max-width: 1000px) {
     .firstsectxt {
         font-size: 5.3vw;
         padding: 1rem 2rem;
+    }
+    .clothesthat {
+        margin-left: 15%;
     }
     .navlinksec {
         margin-right: 0;
@@ -407,10 +412,10 @@ body {
         width: 170px;
     }
     .yourstyle {
-        padding: 12rem 10rem;
+        padding: 12rem 9rem;
     }
     .yourstyletxt {
-        font-size: 56px;
+        font-size: 54px;
     }
     .yourstylebtn {
         font-size: 28px;
@@ -420,5 +425,324 @@ body {
     .dots4b {
         margin-top: -11.5rem;
         left: 28%;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        padding: 2rem 1rem 2rem 1.5rem;
+    }
+    .navlinksec {
+        width: 300px;
+        font-size: 85%;
+    }
+    .navlogo {
+        font-size: 120%;
+    }
+    .navctrl {
+        width: 70px;
+        height: 14px;
+    }
+    .navicon {
+        width: 14px;
+    }
+    .navicon:hover {
+        width: 15px;
+    }
+    .ellipse {
+        top: 2rem;
+        right: 1rem;
+    }
+    .landingsection {
+        padding-left: 1.5rem;
+    }
+    .clothesthat {
+        margin-left: 0;
+    }
+    .firstsectxt {
+        font-size: 55px;
+        width: 400px;
+        padding: 2rem;
+    }
+    .woman {
+        display: none;
+    }
+    .brand {
+        flex-direction: column;
+    }
+    .brandtxt {
+        padding: 6rem 14%;
+        width: 100%;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .brandimg {
+        width: 100%;
+    }
+    .percentoff {
+        padding: 5rem 10%;
+    }
+    .percentofftxt1 {
+        font-size: 25px;
+    }
+    .ladiesimg {
+        display: none;
+    }
+    .ladiescarousel {
+        display: block;
+        margin-top: 3rem;
+        padding: 10%;
+        background: #F7BBD830;
+    }
+    .imgwidth {
+        width: 100%;
+        height: 400px;
+    }
+    .ladindicate li {
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .yourstyle {
+        padding: 10rem 4rem;
+    }
+    .yourstyletxt {
+        font-size: 50px;
+    }
+    .yourstylebtn {
+        font-size: 25px;
+        width: 220px;
+    }
+    .ladiestxt {
+        margin-left: 1.5rem;
+     }
+     .brandtxt1, .brandtxt2 {
+        width: 100%;
+     }
+}
+.mymobilenav {
+    display: none;
+}
+@media(max-width: 600px) {
+    .mynav {
+        display: none;
+    }
+    .mymobilenav {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        display: flex;
+        background: #F7BBD890;
+    }
+    .navlink {
+        font-family: 'Hind', sans-serif;
+    }
+    .myhamburger {
+        border: none;
+    }
+    .myhamburger span {
+        background-image: none !important;
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     .line {
+        height: 2px;
+        background-color: #000000;
+     }
+     .shrtline {
+        width: 15px;
+        margin-left: 15px;
+     }
+     .firstsectxt {
+        width: 300px;
+        font-size: 50px;
+        padding: 1rem 2rem;
+     }
+     .shopnowtxt {
+        font-size: 16px;
+     }
+     .shopnowimg {
+         width: 32px;
+     }
+     .leftbg, .rightbg, .dots4a, .dots4b, .topbg {
+        width: 80px;
+     }
+     .dots3 {
+         width: 35px;
+     }
+     .style {
+        width: 130px;
+        margin-top: -1.5rem;
+     }
+     .brandbg {
+        width: 100px;
+        top: -2rem;
+     }
+     .brandtxt {
+        padding: 4rem 14%;
+     }
+     .myhamburger:focus {
+         border: none;
+         outline: none;
+     }
+     .percentoff {
+        padding: 4rem 10%;
+     }
+     .percentofftxt1 {
+        font-size: 20px;
+        margin-bottom: 0rem;
+     }
+     .percentofftxt2 {
+        font-size: 16px;
+     }
+     .percentbtn {
+        font-size: 15px;
+        width: 150px;
+     }
+     .yourstyle {
+        padding: 7rem 10%;
+     }
+     .yourstyletxt {
+        font-size: 42px;
+        margin-bottom: 5rem;
+     }
+     .yourstylebtn {
+        font-size: 20px;
+        width: 190px;
+     }
+     .smtxt {
+        font-size: 13px;
+     }
+     .lgtxt {
+        font-size: 34px;
+     }
+     .sectionshop {
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .readmoretxt {
+        margin-left: 3rem;
+    }
+    .dots {
+        width: 40vw;
+    }
+}
+
+@media(max-width: 400px) {
+    .brandtxt {
+        padding: 3rem 10%;
+    font-size: 14px;
+    }
+    .mymobilenav {
+        padding: 1rem;
+    }
+    .landingsection {
+        padding-left: 1rem;
+    }
+    .firstsectxt {
+        font-size: 42px;
+        width: 230px;
+        margin-bottom: 2rem;
+    }
+    .shopnowtxt {
+        font-size: 14px;
+    }
+    .shopnowimg {
+        width: 28px;
+    }
+    .ladiescollection {
+        padding: 2rem 0 3rem 0;
+    }
+    .ladiestxt {
+        margin-left: 1rem;
+        padding-left: 1rem;
+        height: 120px;
+        width: 115px;
+    }
+    .smtxt {
+        font-size: 12px;
+    }
+    .lgtxt {
+        font-size: 30px;
+    }
+    .ladiescarousel {
+        margin-top: 2rem;
+    }
+    .brand {
+        margin-top: 2rem;
+    }
+    .brandtxt {
+        letter-spacing: normal;
+        line-height: 26px;
+    }
+    .percentoff {
+        padding: 2rem 6%;
+        border-radius: 35px;
+        width: 95%;
+    }
+    .percentofftxt1 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .percentofftxt2 {
+        padding: 1.5rem 0;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .percentbtn {
+        font-size: 12px;
+        width: 110px;
+        padding: 0.6rem;
+    }
+    .leftbg, .rightbg, .dots4a, .dots4b, .topbg {
+        width: 50px;
+    }
+    .leftbg, .rightbg {
+        bottom: 10rem;
+    }
+    .dots3 {
+        width: 20px;
+        margin-top: -3rem;
+        right: 22%;
+    }
+    .dots4a {
+        margin-top: -1rem;
+    }
+    .dots4b {
+        margin-top: -5rem;
+    }
+    .topbg {
+        margin-top: 1rem;
+        left: 20%;
+    }
+    .dotbg {
+        margin-top: 0rem;
+    }
+    .yourstyle {
+        padding: 4rem 15%;
+        padding-bottom: 6rem;
+    }
+    .yourstyletxt {
+        font-size: 30px;
+        margin-bottom: 4rem;
+    }
+    .yourstylebtn {
+        font-size: 17px;
+        width: 140px;
+        padding: 0.5rem;
+    }
+    .percentbackdrop {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    .sectionshop {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .readmoretxt {
+        margin-left: 2rem;
     }
 }
