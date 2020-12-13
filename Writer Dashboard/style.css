@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .dashboard {
     background-color: #000000;
@@ -13,6 +14,7 @@ body {
 .menu {
     flex: 22%;
     max-width: 22%;
+    padding: 8rem 0rem;
 }
 .details {
     flex: 78%;
@@ -21,4 +23,54 @@ body {
     color: black;
     border-radius: 30px;
     padding: 2rem 5%;
+}
+.menu_items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.menu_items1 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu_icon {
+    text-align: left;
+    margin-right: 13%;
+    width: 18px;
+}
+.menu_btn {
+    background: #1984C0;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #1984C0;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: calc(70% - 150px);
+    cursor: pointer;
+}
+.menu_profile {
+    display: flex;
+    margin-top: 7rem;
+    font-size: 14px;
+    margin-left: calc(82% - 200px);
+    width: 200px;
+}
+.menu_profiletxt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    line-height: 20px;
+}
+.subtxt {
+    color: #6B6B6B;
+}
+.profile_down {
+    width: 10px;
+    margin-left: 1rem;
+    cursor: pointer;
 }
