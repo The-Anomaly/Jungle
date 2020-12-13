@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.dashboard {
+    background-color: #000000;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    display: flex;
+}
+.menu {
+    flex: 22%;
+    max-width: 22%;
+}
+.details {
+    flex: 78%;
+    max-width: 78%;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 30px;
+    padding: 2rem 5%;
+}
