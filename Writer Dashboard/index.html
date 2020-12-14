@@ -1,47 +1,157 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Freelancer Dashboard</title>
-        <link rel="stylesheet" href="style.css" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
-        </style>
-    </head>
+  <head>
+    <title>Freelancer Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+    </style>
+  </head>
 
-    <body>
-        <div class="dashboard">
-            <div class="menu">
-                <div class="menu_items">
-                    <div class="menu_items1">
-                        <img class="menu_icon" src="./assets/dashboard.png" alt="dashboard" />
-                        <span>Dashboard</span>
-                    </div>
-                    <div class="menu_items1">
-                        <img class="menu_icon" src="assets/post.png" alt="post" />
-                        <span>Post</span>
-                    </div>
-                    <div class="menu_items1">
-                        <img class="menu_icon" src="assets/history.png" alt="history" />
-                        <span>History</span>
-                    </div>
-                    <div class="menu_items1">
-                        <img class="menu_icon" src="assets/setting.png" alt="setting" />
-                        <span>Settings</span>
-                    </div>
-                </div>
-                <button class="menu_btn">Add an account</button>
-                <div class="menu_profile">
-                    <img src="assets/avatar.png" alt="avatar" />
-                    <div class="menu_profiletxt">
-                        <div>Killua Zoldyck <img class="profile_down" src="assets/down.png" alt="down" /></div>
-                        <div>Writer</div>
-                    </div>
-                </div>
-            </div>
-            <div class="details">
-                content
-            </div>
+  <body>
+    <div class="dashboard">
+      <div class="menu">
+        <div class="menu_items">
+          <div class="menu_items1">
+            <img
+              class="menu_icon"
+              src="./assets/dashboard.png"
+              alt="dashboard"
+            />
+            <span>Dashboard</span>
+          </div>
+          <div class="menu_items1">
+            <img class="menu_icon" src="assets/post.png" alt="post" />
+            <span>Post</span>
+          </div>
+          <div class="menu_items1">
+            <img class="menu_icon" src="assets/history.png" alt="history" />
+            <span>History</span>
+          </div>
+          <div class="menu_items1">
+            <img class="menu_icon" src="assets/setting.png" alt="setting" />
+            <span>Settings</span>
+          </div>
         </div>
-    </body>
+        <button class="menu_btn">Add an account</button>
+        <div class="menu_profile">
+          <img src="assets/avatar.png" alt="avatar" />
+          <div class="menu_profiletxt">
+            <div>
+              Killua Zoldyck
+              <img class="profile_down" src="assets/down.png" alt="down" />
+            </div>
+            <div>Writer</div>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="stats">
+          <div class="stat_1">
+            <div class="stattxt1">
+              <span>Total Subscribers</span>
+              <span>Days <img src="assets/down1.png" /></span>
+            </div>
+            <div class="stattxt2">14.8K</div>
+            <div class="stattxt3">
+              <span class="statarrow"> &#8593; 5.4%</span> in the last 7 days
+            </div>
+          </div>
+          <div class="stat_1">
+            <div class="stattxt1">
+              <span>Reach</span>
+              <span>Days <img src="assets/down1.png" /></span>
+            </div>
+            <div class="stattxt2">614.1K</div>
+            <div class="stattxt3">
+              <span class="statarrow"> &#8593; 1.4%</span> in the last 7 days
+            </div>
+          </div>
+          <div class="stat_1">
+            <div class="stattxt1">
+              <span>Earnings</span>
+              <span>Months <img src="assets/down1.png" /></span>
+            </div>
+            <div class="stattxt2">&euro;1,562</div>
+            <div class="stattxt3">
+              <span class="statarrow"> &#8593; 5.4%</span> in the last 1 month
+            </div>
+          </div>
+        </div>
+        <div class="chart">
+          <div class="stat_chart">
+            <div class="stat_label">
+              <div>
+                <span class="label1"> </span>Views
+                <span class="versus">vs</span>
+                <span class="label2"> </span>Likes
+              </div>
+              <div>
+                <span class="sort">Sort by </span
+                ><span>Days <img src="assets/down1.png" /></span>
+              </div>
+            </div>
+            <img class="chartimg" src="assets/chart.svg" alt="chart" />
+          </div>
+          <div class="stats1">
+            <div class="stat_2">
+              <div class="stattxt1">
+                <span>Word Count</span>
+                <span>Days <img src="assets/down1.png" /></span>
+              </div>
+              <div class="stattxt4">
+                2,354 <span class="statarrow2">&darr; 1.4%</span>
+              </div>
+            </div>
+            <div class="stat_2">
+              <div class="stattxt1">
+                <span>Referrals</span>
+                <span>Days <img src="assets/down1.png" /></span>
+              </div>
+              <div class="stattxt4">
+                2,354 <span class="statarrow2">&darr; 1.4%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats2">
+          <div class="stat_1 stats2_1">
+            <div class="reader-stat">
+              Readers by country
+              <span
+                ><img class="reader-down" src="assets/down1.png" alt="down"
+              /></span>
+            </div>
+            <div class="grid-container">
+              <div class="grid-item"><img src="assets/country1.png" /></div>
+              <div class="country grid-item" alt="Nigeriag flag">Nigeria</div>
+              <div class="grid-item">2.54k</div>
+              <div class="grid-item"><img src="assets/country2.png" /></div>
+              <div class="country grid-item" alt="Togo's flag">Togo</div>
+              <div class="grid-item">1.4k</div>
+              <div class="grid-item"><img src="assets/country3.png" /></div>
+              <div class="country grid-item" alt="Ukrainian flag">Ukraine</div>
+              <div class="grid-item">947</div>
+              <div class="grid-item">
+                <img src="assets/country4.png" alt="Canadian flag" />
+              </div>
+              <div class="country">Canada</div>
+              <div class="grid-item">547</div>
+            </div>
+          </div>
+          <div class="stat_1 stats2_1">
+            <div class="stattxt1">
+              <span>Articles</span>
+              <span>Month <img src="assets/down1.png" /></span>
+            </div>
+            <div class="stattxt2">50</div>
+            <div class="stattxt3">
+              <span class="statarrow"> &#8593; 0.5%</span> in the last 7 days
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

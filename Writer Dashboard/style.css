@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 }
 .dashboard {
     background-color: #000000;
@@ -73,4 +74,124 @@ body {
     width: 10px;
     margin-left: 1rem;
     cursor: pointer;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.stat_1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 31.5%;
+    background: #1984C010;
+}
+.stattxt1 {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.stattxt2 {
+    font-size: 44px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+.stattxt3 {
+    font-size: 14px;
+}
+.statarrow {
+    color: #43E329;
+}
+.stat_2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 1.5rem;
+    /* width: 23%; */
+    background: #1984C010;
+}
+.stattxt4 {
+    font-size: 20px;
+    margin-top: 0.8rem;
+}
+.statarrow2 {
+    font-size: 14px;;
+    color: #E32929;
+}
+.stats1 {
+    height: 260px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chart {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.stat_chart {
+    width: 70%;
+}
+.stat_label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.label1 {
+    border-radius: 50%;
+    border: 5px solid #1984C0;
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+.label2 {
+    border-radius: 50%;
+    border: 5px solid #19C220;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 0.3rem
+}
+.versus {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.sort {
+    color: #6B6B6B;
+}
+.chartimg {
+    margin-top: 2rem;
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2rem;
+    font-size: 15px;
+}
+.country {
+    color: #6B6B6B;
+}
+.stats2 {
+    display: flex;
+    width: 800px;
+    margin-top: 3rem;
+}
+.stats2_1 {
+    width: 250px;
+    margin-right: 2rem;
+}
+.grid-item {
+    margin-bottom: 0.4rem;
+}
+.reader-stat {
+    letter-spacing: 0.3px;
+    display: flex;
+    justify-content: space-between;
+}
+.reader-down {
+    width: 10px;
 }
