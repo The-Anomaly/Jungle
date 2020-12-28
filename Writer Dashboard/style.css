@@ -113,6 +113,7 @@ body {
     padding: 1.5rem;
     /* width: 23%; */
     background: #1984C010;
+    margin-bottom: 1rem;
 }
 .stattxt4 {
     font-size: 20px;
@@ -191,10 +192,63 @@ body {
     letter-spacing: 0.3px;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 .reader-down {
     width: 10px;
 }
 .dropdown {
     cursor: pointer;
+}
+.mini_menu {
+    display: none;
+}
+@media(max-width: 1000px) {
+ .stattxt1, .stattxt3, .menu_profiletxt, .reader-stat {
+    font-size: 12px;
+ }   
+ .stattxt2 {
+    font-size: 40px;
+ }
+ .menu_items1, .grid-container, .stat_label {
+    font-size: 13px;
+ }
+ .menu_avatar {
+    width: 45px;
+ }
+ .stat_chart {
+    width: 65%;
+ }
+ .stats1 {
+    width: 28%;
+ }
+ .menu_profile {
+    margin-left: calc(100% - 200px);
+ }
+ .stats2_1 {
+    width: 220px;
+ }
+ .menu_btn {
+    margin-left: calc(85% - 150px);
+ }
+ .menu_items {
+    margin-left: 10%;
+ }
+}
+@media(max-width: 850px) {
+    .menu {
+        display: none;
+    }
+    .details {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .mini_menu {
+        display: block;
+        padding: 1rem;
+    }
+    .dashboard {
+        flex-direction: column;
+        padding-top: 0;
+    }
 }
