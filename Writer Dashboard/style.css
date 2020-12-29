@@ -178,7 +178,7 @@ body {
 }
 .stats2 {
     display: flex;
-    width: 800px;
+    width: 100%;
     margin-top: 3rem;
 }
 .stats2_1 {
@@ -200,7 +200,7 @@ body {
 .dropdown {
     cursor: pointer;
 }
-.mini_menu {
+.mini_menu, .mini_menu_bar {
     display: none;
 }
 @media(max-width: 1000px) {
@@ -243,12 +243,98 @@ body {
         max-width: 100%;
         flex: 100%;
     }
-    .mini_menu {
-        display: block;
-        padding: 1rem;
+    .mini_menu_bar {
+        display: flex;
+        padding: 1.5rem 0;
+        justify-content: space-between;
+        font-size: 18px;
+        letter-spacing: 0.5px;
     }
     .dashboard {
         flex-direction: column;
         padding-top: 0;
+    }
+    .menu_hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .line1 {
+        width: 30px;
+        height: 3px;
+        background: #ffffff;
+    }
+    .line2 {
+        width: 15px;
+        height: 3px;
+        background: #ffffff;
+        margin-left: 15px;
+    }
+    .mini_menu {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background: #000000;
+        height: 100vh;
+        margin-left: -1rem;
+        overflow-y: auto;
+        padding-bottom: 6rem;
+        padding-top: 3rem;
+        transition: 0.5s;
+    }
+    .chartimg {
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width: 619px) {
+    .chart {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .stats1 {
+        margin-top: 2rem;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    }
+    .stat_2 {
+        width: 40%;
+    }
+    .stat_chart {
+        width: 95%;
+    }
+    .stats {
+        flex-wrap: wrap;
+    }
+    .stat_1 {
+        width: 190px;
+        margin-bottom: 2rem;
+    }
+    .stats2 {
+        margin-top: 1rem;
+    }
+    .stats2_1 {
+        margin-right: 0;
+    }
+    .newstat {
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .stat_1 {
+        width: 100%;
+    }
+    .stats2 {
+        flex-direction: column;
+    }
+    .stat_2 {
+        width: 50%;
+    }
+    .dashboard {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
     }
 }
