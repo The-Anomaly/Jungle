@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #262d40;
+    margin: 0;
+}
+.junglenav {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 1rem 3rem;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    background: #000000;
+    z-index: 99;
+}
+.logo {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.menutabs {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.landing {
+    background-size: cover;
+    padding: 15rem 1rem 2rem 3rem;
+    color: #ffffff;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    display: flex;
+}
+.firsttxt {
+    flex: 90%;
+    position: relative;
+    z-index: 2;
+}
+.socials {
+    flex: 10%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 400px;
+    padding-right: 1rem;
+    height: 450px;
+    margin-top: -2rem;
+}
+.social_icon {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.txt1 {
+    font-size: 50px;
+    line-height: 1.5;
+}
+.txt2 {
+    font-size: 20px;
+    width: 65%;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+.btn1 {
+    font-size: 18px;
+    background: #000000;
+    margin-top: 3rem;
+    width: 180px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+.jungleimg {
+    position: absolute;
+    border-radius: 8px;
+    width: 50%;
+    top: 10.5rem;
+    right: 1rem;
+}
+.afterall {
+    margin-top: 1rem;
+}
