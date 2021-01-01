@@ -1,5 +1,5 @@
 <?php
 
-include_once("./The Hems/index.html");
+include_once("./index.html");
 
 ?>
