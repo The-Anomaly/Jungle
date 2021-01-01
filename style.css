@@ -75,6 +75,11 @@ body {
 .social_icon {
     transform: scale(1.5);
     cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+.social_icon:hover {
+    color:black;
 }
 .txt1 {
     font-size: 61px;
@@ -105,6 +110,13 @@ body {
     font-family: 'Alegreya', serif;
     font-weight: 800;
     letter-spacing: 0.3px;
+    transition: 0.3s;
+}
+.btn1:hover {
+    background: #f7f7f7;
+    color: #000000;
+    border: 1px solid #f7f7f7;
+    outline: none;
 }
 .jungleimg {
     position: absolute;
@@ -121,6 +133,7 @@ body {
     background: #ffffff;
     padding: 3rem;
     font-family: 'Alegreya', serif;
+    padding-bottom: 5rem;
 }
 .projectttl {
     font-size: 50px;
@@ -128,4 +141,68 @@ body {
     letter-spacing: 0.3px;
     text-align: left;
     line-height: 2;
+}
+.projectlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.projects {
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    /* flex: 50%; */
+    width: 40%;
+    box-shadow: 4px 4px 13px 0px rgba(38,45,64,0.5);
+}
+.projectthumb {
+    width: 100%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.projectthumb:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px 0px rgba(38,45,64,0.5);
+}
+.ttl1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3px;
+}
+.projectdescription {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 1rem;
+}
+.hemsborder {
+    border-top: 5px solid #eeaacb;
+}
+.dashboardborder {
+    border-top: 5px solid #41abe6;
+}
+.about {
+    font-family: 'Alegreya', serif;
+    padding: 3rem;
+    color: #ffffff;
+    padding-bottom: 5rem;
+}
+.aboutttl {
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 2;
+}
+.abouttxt {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+.footer {
+    background: #ffffff;
+    color: #262d40;
 }
