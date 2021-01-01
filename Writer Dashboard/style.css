@@ -273,18 +273,20 @@ body {
     }
     .mini_menu {
         display: none;
-        position: absolute;
+        position: fixed;
         z-index: 99;
         background: #000000;
         height: 100vh;
         margin-left: -1rem;
         overflow-y: auto;
         padding-bottom: 6rem;
-        padding-top: 3rem;
         transition: 0.5s;
     }
     .chartimg {
         margin-top: 4rem;
+    }
+    .mini_items {
+        margin-top: 3rem;
     }
 }
 
