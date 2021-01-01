@@ -21,23 +21,38 @@ body {
     font-weight: 700;
     font-size: 35px;
     letter-spacing: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
 }
 .menutabs {
     font-family: 'Josefin Slab', serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
-    width: 250px;
+    width: 320px;
     display: flex;
     justify-content: space-between;
+}
+.menuitems {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menuitems:hover {
+    font-weight: 700;
+    border: 1px solid white;
 }
 .landing {
     background-size: cover;
     padding: 15rem 1rem 2rem 3rem;
     color: #ffffff;
-    font-family: 'Josefin Slab', serif;
-    font-weight: 800;
+    /* font-family: 'Josefin Slab', serif; */
     display: flex;
+    font-family: 'Alegreya', serif;
 }
 .firsttxt {
     flex: 90%;
@@ -62,14 +77,19 @@ body {
     cursor: pointer;
 }
 .txt1 {
-    font-size: 50px;
+    font-size: 61px;
+    letter-spacing: 1px;
     line-height: 1.5;
+    font-weight: 900;
 }
 .txt2 {
     font-size: 20px;
     width: 65%;
-    line-height: 1.2;
     margin-top: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    font-size: 20px;
 }
 .btn1 {
     font-size: 18px;
@@ -82,7 +102,7 @@ body {
     padding: 0.8rem;
     cursor: pointer;
     color: #ffffff;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Alegreya', serif;
     font-weight: 800;
     letter-spacing: 0.3px;
 }
@@ -95,4 +115,17 @@ body {
 }
 .afterall {
     margin-top: 1rem;
+}
+.seeds {
+    color: #262d40;
+    background: #ffffff;
+    padding: 3rem;
+    font-family: 'Alegreya', serif;
+}
+.projectttl {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    text-align: left;
+    line-height: 2;
 }
