@@ -30,7 +30,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
-    width: 320px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +41,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: #ffffff;
+    transition: 0.5s;
 }
 .menuitems:hover {
     font-weight: 700;
@@ -205,4 +206,36 @@ body {
 .footer {
     background: #ffffff;
     color: #262d40;
+    font-family: 'Alegreya', serif;
+    padding: 3rem;
+    padding-bottom: 0;
+}
+.contact {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.contactus {
+    margin: 1rem 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.mail {
+    color: inherit;
+    text-decoration: none;
+}
+.mail:hover {
+    color: -webkit-link;
+    text-decoration: underline;
+}
+.anomaly {
+    text-align: center;
+    padding: 1rem;
+    margin: 0 -3rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    background: #262d40;
+    margin-top: 3rem;
 }
