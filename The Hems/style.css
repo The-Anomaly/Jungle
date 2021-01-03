@@ -162,6 +162,7 @@ body {
 .imgwidth {
     width: 32vw;
     opacity: 85%;
+    position: relative;
 }
 .lady1 {
     margin-bottom: 1.3rem;
@@ -749,4 +750,15 @@ body {
     .readmoretxt {
         margin-left: 2rem;
     }
+}
+.overlay {
+    position: absolute;
+    width: 32vw;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(248, 216, 231, 0.15);
+}
+.overlay_mobile {
+    width: 100%;
 }
