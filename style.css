@@ -154,7 +154,9 @@
     border-radius: 6px;
     padding: 1.5rem 2rem;
     /* flex: 50%; */
-    width: 40%;
+    width: 22%;
+    /* width: 40%; */
+    margin-bottom: 3rem;
     box-shadow: 4px 4px 13px 0px rgba(38,45,64,0.5);
 }
 .projectthumb {
@@ -163,7 +165,7 @@
     cursor: pointer;
 }
 .projectthumb:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     box-shadow: 2px 2px 10px 0px rgba(38,45,64,0.5);
 }
 .ttl1 {
@@ -238,4 +240,23 @@
     letter-spacing: 0.5px;
     background: #262d40;
     margin-top: 3rem;
+}
+.built {
+    font-weight: 800;
+}
+/*Animation*/
+@keyframes move {
+    from {margin-top: -2rem; transform: scale(1.05);}
+    to {margin-top: 1rem;}
+}
+
+.downarrow {
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    margin-top: 0rem;
+    animation-timing-function: ease-in;
 }
