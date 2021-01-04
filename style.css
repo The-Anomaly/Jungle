@@ -15,6 +15,7 @@
     width: 100vw;
     background: #000000;
     z-index: 99;
+    transition: 0.2s;
 }
 .logo {
     font-family: 'Amatic SC', cursive;
@@ -125,6 +126,7 @@
     width: 50%;
     top: 10.5rem;
     right: 1rem;
+    transition: 0.5s;
 }
 .afterall {
     margin-top: 1rem;
@@ -154,8 +156,8 @@
 .projects {
     border-radius: 6px;
     padding: 1.5rem 2rem;
-    /* width: 22%; */
-    width: 40%;
+    width: 22%;
+    /* width: 40%; */
     min-width: 230px;
     margin-bottom: 3rem;
     margin-right: 1rem;
@@ -246,7 +248,7 @@
 .built {
     font-weight: 800;
 }
-/*Animation*/
+/*Arrow Animation*/
 @keyframes move {
     from {margin-top: -2rem; transform: scale(1.05);}
     to {margin-top: 1rem;}
@@ -290,7 +292,7 @@
         font-size: 16px;
     }
 }
-.junglehamburger {
+.junglehamburger, .minijunglenav {
     display: none;
 }
 @media(max-width: 800px) {
@@ -345,9 +347,40 @@
     .downarrow {
         width: 20%;
     }
+    .minijunglenav {
+        display: block;
+        position: fixed;
+        background: #000000;
+        color: #ffffff;
+        overflow-y: auto;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 40vw;
+        z-index: 99;
+    }
+    .minimenutabs {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Josefin Slab', serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 16px;
+        justify-content: space-between;
+        align-items: center;
+        height: 280px;
+        margin-top: 10rem;
+        transition: 0.5s;
+    }
+    .junglenav {
+        padding: 1rem 2rem;
+    }
 }
 
 @media(max-width: 600px) {
+    .minijunglenav {
+        width: 50vw;
+    }
     .jungleimg {
         top: 6.5rem;
         width: 70%;
@@ -365,4 +398,51 @@
         min-width: 220px;
         margin-right: 1rem;
     }
+    .junglenav {
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .projectttl, .aboutttl {
+        font-size: 40px;
+    }
+    .txt1 {
+        font-size: 42px;
+        position: relative;
+    top: -2rem
+    }
+    .txt2 {
+        width: 100%;
+    }
+    .jungleimg {
+        right: 0.5rem;
+        width: 96%;
+        top: 5.5rem;
+    }
+    .jsubtxt {
+        margin-top: 1rem;
+    }
+    .socials {
+        padding-right: 0;
+        height: 450px;
+    }
+    .downarrow {
+        width: 35%;
+    }
+    .firsttxt {
+        margin-left: -0.5rem;
+    }
+}
+@media(max-width: 350px) {
+    .txt2 {
+        margin-top: -1rem;
+    }
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
 }

@@ -9,11 +9,26 @@
       @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800;900&display=swap");
     </style>
+    <script type="text/javascript" src="./script.js"></script>
   </head>
   <body class="land">
+    <div id="junglemenu" class="minijunglenav hide">
+      <span class="minimenutabs">
+        <span class="menuitems" onclick="closeMenu()">portfolio</span>
+        <a
+          href="https://github.com/The-Anomaly"
+          target="_blank"
+          class="menuitems"
+          onclick="closeMenu()"
+          >git</a
+        >
+        <a href="#aboutme" onclick="closeMenu()" class="menuitems">about</a>
+        <a href="#contactme" onclick="closeMenu()" class="menuitems">contact</a>
+      </span>
+    </div>
     <div class="junglenav">
       <a href="./index.html" class="logo">Jungle</a>
-      <span class="junglehamburger">
+      <span class="junglehamburger" onclick="toggleMenu()">
         <div class="jline1"></div>
         <div class="jline1"></div>
         <div class="jline2"></div>
@@ -36,7 +51,7 @@
         <div class="txt2">
           <!-- This is where mediocrity comes to die and geniuses come to thrive.  -->
           <div>Watch as I get experimental, spontaneous and wild.</div>
-          <div>
+          <div class="jsubtxt">
             We might come across the dangers that lurk in the dark along the
             way, so be not perturbed when you come across an unfinished project.
           </div>
@@ -75,7 +90,7 @@
             <span class="built">Built with:</span> HTML, CSS, Vanilla JS.
           </div>
         </div>
-        <!-- <div class="projects hemsborder">
+        <div class="projects hemsborder">
           <div class="ttl1">The Hems</div>
           <a href="The Hems/index.html" target="_blank"
             ><img class="projectthumb" src="assets/thehems.svg"
@@ -83,8 +98,8 @@
           <div class="projectdescription">
             <span class="built">Built with:</span> HTML, CSS, Bootstrap.
           </div>
-        </div> -->
-        <!-- <div class="projects dashboardborder">
+        </div>
+        <div class="projects dashboardborder">
           <div class="ttl1">Dashboard</div>
           <a href="Writer Dashboard/index.html" target="_blank"
             ><img class="projectthumb" src="assets/dashboard.svg"
@@ -92,7 +107,7 @@
           <div class="projectdescription">
             <span class="built">Built with:</span> HTML, CSS, Vanilla JS.
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
     <div class="about" id="aboutme">

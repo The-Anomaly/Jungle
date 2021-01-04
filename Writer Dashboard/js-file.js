@@ -13,8 +13,6 @@
 
 function openMenu() {
   var x = document.getElementById("menu");
-  console.log(x);
-  console.log(x.classList);
     if(x.classList.contains("hide") === true) {
       x.classList.toggle("show");
     } 
