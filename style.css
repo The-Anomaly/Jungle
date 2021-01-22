@@ -28,13 +28,14 @@
     color: #ffffff;
 }
 .menutabs {
-    font-family: 'Josefin Slab', serif;
+    /* font-family: 'Josefin Slab', serif; */
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
     width: 400px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Alegreya', serif;
 }
 .menuitems {
     cursor: pointer;
@@ -51,11 +52,12 @@
 }
 .landing {
     background-size: cover;
-    padding: 15rem 1rem 2rem 3rem;
+    padding: 15rem 1rem 2rem 5rem;
     color: #ffffff;
     /* font-family: 'Josefin Slab', serif; */
     display: flex;
     font-family: 'Alegreya', serif;
+    background-image: url(./assets/DarpanD.jpg);
 }
 .firsttxt {
     flex: 90%;
@@ -128,6 +130,7 @@
     top: 10.5rem;
     right: 1rem;
     transition: 0.5s;
+    display: none;
 }
 .afterall {
     margin-top: 1rem;
@@ -135,8 +138,8 @@
 .seeds {
     color: #262d40;
     background: #ffffff;
-    padding: 3rem;
-    padding-right: 1rem !important;
+    padding: 3rem 5rem;
+    padding-right: 4rem;
     font-family: 'Alegreya', serif;
     padding-bottom: 5rem;
 }
@@ -193,7 +196,7 @@
 }
 .about {
     font-family: 'Alegreya', serif;
-    padding: 3rem;
+    padding: 3rem 5rem;
     color: #ffffff;
     padding-bottom: 5rem;
 }
@@ -210,12 +213,11 @@
     line-height: 1.7;
     margin-top: 1rem;
 }
-.footer {
+.contact-me {
     background: #ffffff;
     color: #262d40;
     font-family: 'Alegreya', serif;
-    padding: 3rem;
-    padding-bottom: 0 !important;
+    padding: 3rem 5rem;
 }
 .contact {
     margin-right: 1rem;
@@ -238,13 +240,14 @@
 .anomaly {
     text-align: center;
     padding: 1rem;
-    margin: 0 -3rem;
+    /* margin: 0 -3rem; */
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
     letter-spacing: 0.5px;
     background: #262d40;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    font-family: 'Alegreya', serif;
 }
 .built {
     font-weight: 800;
@@ -279,6 +282,16 @@
     }
     .landing {
         padding: 13rem 1rem 6rem 3rem;
+    }
+    .seeds {
+        padding: 3rem;
+        padding-right: 2rem;
+    }
+    .about {
+        padding: 3rem;
+    }
+    .contact-me {
+        padding: 3rem;
     }
     .socials {
         height: 380px;
@@ -323,9 +336,9 @@
         padding: 2rem;
     }
     .anomaly {
-        margin: 0 -2rem;
+        /* margin: 0 -2rem; */
     }
-    .footer {
+    .contact-me {
         padding: 2rem;
     }
     .about {
@@ -363,7 +376,7 @@
     .minimenutabs {
         display: flex;
         flex-direction: column;
-        font-family: 'Josefin Slab', serif;
+        /* font-family: 'Josefin Slab', serif; */
         font-weight: 400;
         text-transform: uppercase;
         font-size: 16px;
@@ -372,6 +385,7 @@
         height: 280px;
         margin-top: 10rem;
         transition: 0.5s;
+        font-family: 'Alegreya', serif;
     }
     .junglenav {
         padding: 1rem 2rem;
@@ -388,6 +402,7 @@
     }
     .txt1 {
         font-size: 50px;
+        margin-bottom: 2rem;
     }
     .txt2 {
         font-size: 16px;
@@ -410,8 +425,7 @@
     }
     .txt1 {
         font-size: 42px;
-        position: relative;
-    top: -2rem
+        margin-top: -2rem;
     }
     .txt2 {
         width: 100%;
@@ -422,7 +436,7 @@
         top: 5.5rem;
     }
     .jsubtxt {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
     .socials {
         padding-right: 0;
