@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.3s;
+}
+.vehicle {
+    background: #141414;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.Vnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    color: #ffffff;
+    align-items: center;
+}
+.Vmenutabs {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Vlogo {
+    font-weight: 900;
+    font-size: 35px;
+    margin-right: 2rem;
+}
+.Vbrandname {
+    font-weight: 100;
+    font-size: 24px;
+}
+.Vpointer {
+    cursor: pointer;
+}
+.Vmenu {
+    /* transition: 0.3s; */
+}
+.Vmenu:hover {
+    transform: scale(1.1);
+    font-weight: 500;
+}

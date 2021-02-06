@@ -103,24 +103,25 @@
 }
 .btn1 {
     font-size: 18px;
-    background: #000000;
+    background: #e9effd;
+    color: #262d40;
     margin-top: 3rem;
     width: 180px;
     border-radius: 8px;
-    border: 1px solid #000000;
+    border: 1px solid #e9effd;
     text-align: center;
     padding: 0.8rem;
     cursor: pointer;
-    color: #ffffff;
     font-family: 'Alegreya', serif;
     font-weight: 800;
     letter-spacing: 0.3px;
     transition: 0.3s;
 }
 .btn1:hover {
-    background: #f7f7f7;
-    color: #000000;
-    border: 1px solid #f7f7f7;
+    /* background: #f7f7f7; */
+    /* color: #ffffff; */
+    /* border: 1px solid #f7f7f7; */
+    transform: scale(1.10);
     outline: none;
 }
 .jungleimg {
@@ -334,9 +335,6 @@
     }
     .about {
         padding: 2rem;
-    }
-    .anomaly {
-        /* margin: 0 -2rem; */
     }
     .contact-me {
         padding: 2rem;
