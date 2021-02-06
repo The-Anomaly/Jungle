@@ -7,6 +7,7 @@
     background: #141414;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
 }
 .Vnav {
     display: flex;
@@ -39,4 +40,248 @@
 .Vmenu:hover {
     transform: scale(1.1);
     font-weight: 500;
+}
+.Vmain {
+    display: flex;
+    height: 650px;
+}
+.Vmain1 {
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vmain2 {
+    flex: 82%;
+}
+.Vmain3 {
+    flex: 8%;
+    display: flex;
+    align-items: center;
+}
+.Vmain1 > div > span {
+    display: block;
+    transform: rotate(270deg);
+}
+.Vmain1 > div {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 120px;
+    justify-content: space-between;
+    margin: auto;
+}
+.Vyear {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 170px;
+    color: #ffffff20;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 13.5%;
+}
+.Vyear div:nth-child(2) {
+    margin-top: -6.5rem;
+}
+.Vcar {
+    position: relative;
+    height: 80%;
+}
+.Vvehicle {
+    width: 77%;
+    position: absolute;
+    right: 5%;
+    top: -2rem;
+}
+.Vcolorsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.Vcolorblock {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Vc1 {
+    background: #018DB6;
+}
+.Vc2 {
+    background: #01B613;
+}
+.Vc3 {
+    background: #B65801;
+}
+.Vc4 {
+    background: #474747;
+}
+.Vcolorborder {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vcb1 {
+    border: 1px solid #018DB6;
+}
+.Vcb2 {
+    border: 1px solid transparent;
+}
+.Vcb3 {
+    border: 1px solid transparent;
+}
+.Vcb4 {
+    border: 1px solid transparent;
+}
+.Vcb2:hover {
+    border: 1px solid #01B613;
+}
+.Vcb3:hover {
+    border: 1px solid #B65801;
+}
+.Vcb4:hover {
+    border: 1px solid #474747;
+}
+.Vrating {
+    border: 3.5px solid;
+    border-radius: 50%;
+    border-top-color: #018DB6;
+    border-bottom-color: transparent;
+    border-left-color: #018DB6;
+}
+.Vspeed {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 30%;
+    top: 16%;
+}
+.Vspeed div:nth-child(1) {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.Vspeed div:nth-child(2) {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #AEAEAE;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Vmph {
+    border-width: 4.5px;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+.Vmph div:nth-child(1) {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+.Vmph div:nth-child(2) {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #AEAEAE;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Vbrand {
+   text-align: center;
+   padding-bottom: 1rem;
+}
+.Vtxt1 {
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-right: 4rem;
+    margin-bottom: 3px;
+}
+.Vtxt2 {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-left: 4rem;
+}
+.Vtxt {
+    width: 250px;
+    margin: auto;
+}
+.Vtxt1::before {
+    content: "";
+    border: 1px solid #1C5D70;
+    display: block;
+    width: 100px;
+    margin-bottom: 0.5rem;
+}
+.Vtxt2::after {
+    content: "";
+    border: 2px solid #1C5D70;
+    display: block;
+    width: 80px;
+    margin-top: 0.5rem;
+    margin-left: 40%;
+}
+.Vscroll {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+.Vreel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 13px;
+    width: 140px;
+}
+.Vplay {
+    width: 35px;
+    height: 35px;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Vplayborder {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #018DB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Vcontrol {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.Vprev {
+    width: 6px;
+    margin-right: 8px;
+}
+.Vprevtxt {
+    color: #777777;
+    cursor: pointer;
+}
+.Vnext {
+    width: 6px;
+    margin-left: 8px;
+}
+.Vnexttxt {
+    cursor: pointer;
 }
