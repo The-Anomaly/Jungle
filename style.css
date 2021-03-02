@@ -195,6 +195,9 @@
 .dashboardborder {
     border-top: 5px solid #41abe6;
 }
+.wwborder {
+    border-top: 5px solid #141414;
+}
 .about {
     font-family: 'Alegreya', serif;
     padding: 3rem 5rem;
