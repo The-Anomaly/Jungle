@@ -4,13 +4,19 @@
     <title>Wicked Wheels</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="./style.css" />
-    <script type="text/javascript" src="./script.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;800;900&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
     </style>
   </head>
   <body class="vehicle">
+    <dialog id="dialog" class="dialog-popup" open>
+      <div class="uidialog">
+        User Interface only. <br />
+        This is a prototype screen. 
+        <button onclick="closeDialog()" id="dialog-button">Continue</button>
+      </div>
+    </dialog>
     <nav class="Vnav">
       <span>
         <span class="Vlogo">Ww</span>
@@ -45,9 +51,9 @@
         </div>
         <div class="Vbrand">
           <div class="Vtxt">
-          <div class="Vtxt1">CHEVROLET</div>
-          <div class="Vtxt2">ATLANTIC</div>
-        </div>
+            <div class="Vtxt1">CHEVROLET</div>
+            <div class="Vtxt2">ATLANTIC</div>
+          </div>
         </div>
       </div>
       <div class="Vmain3">
@@ -69,13 +75,20 @@
     </div>
     <div class="Vscroll">
       <div class="Vreel">
-        <div class="Vplayborder"><div class="Vplay"><img src="assets/play.png" alt="play reel" /></div></div>
+        <div class="Vplayborder">
+          <div class="Vplay"><img src="assets/play.png" alt="play reel" /></div>
+        </div>
         <span>SHOWREEL</span>
       </div>
       <div class="Vcontrol">
-        <span class="Vprevtxt"><img class="Vprev" src="assets/prev.png" alt="previous" /> Prev</span>
-        <span class="Vnexttxt">Next <img class="Vnext" src="assets/next.png" /></span>
+        <span class="Vprevtxt"
+          ><img class="Vprev" src="assets/prev.png" alt="previous" /> Prev</span
+        >
+        <span class="Vnexttxt"
+          >Next <img class="Vnext" src="assets/next.png"
+        /></span>
       </div>
     </div>
   </body>
+  <script type="text/javascript" src="./script.js"></script>
 </html>
