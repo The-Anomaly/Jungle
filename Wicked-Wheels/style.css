@@ -286,7 +286,7 @@
 }
 .dialog-popup {
     position: fixed;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -301,6 +301,9 @@
     font-size: 15px;
     text-align: center;
     background: #ffffff;
+    color: #000000;
+    max-width: 300px;
+    margin: 0 1rem;
 }
 .uidialog > button {
     display: block;
@@ -316,7 +319,12 @@
 .uidialog > button:hover {
     transform: scale(1.1);
 }
-
+.show {
+    display: flex;
+}
+.hide {
+    display: none;
+}
 @media (max-width: 1200px) {
     .Vyear {
         margin-left: 8%;
